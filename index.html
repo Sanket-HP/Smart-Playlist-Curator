@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Playlist Curator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Smart Playlist Curator</h1>
+        <p>Get personalized music recommendations based on your mood!</p>
+    </header>
+    
+    <main>
+        <section>
+            <label for="mood">Enter your mood:</label>
+            <input type="text" id="mood" placeholder="e.g., happy, relaxed, energetic">
+            <button onclick="getRecommendations()">Get Playlist</button>
+        </section>
+        
+        <section id="playlist">
+            <h2>Recommended Playlist</h2>
+            <ul id="playlist-results"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Smart Playlist Curator. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
